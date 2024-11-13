@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from '../components/Header';
 import Post from '../components/Post';
-import CreatePost from '../components/CreatePost'; // Додано CreatePost
+import CreatePost from '../components/CreatePost'; 
 import { FaHome, FaSearch, FaRegHeart, FaUser } from 'react-icons/fa';
 
 function HomePage() {
@@ -22,7 +22,7 @@ function HomePage() {
           <div className="story"></div>
           <div className="story"></div>
         </div>
-        <CreatePost /> {/* Додаємо форму створення посту */}
+        <CreatePost /> {}
         <Post />
         <Post />
       </div>
